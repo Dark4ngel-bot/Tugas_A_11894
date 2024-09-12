@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import os
 
-# Gunakan os.path.join() untuk menggabungkan direktori dan file model pickle
+# Gunakan os.path.join() untuk menggabungkan direktori dan file model pickl
 model_path = 'rf_diabetes_model.pkl'
 # Periksa apakah file ada di direktori yang ditentukan
 if os.path.exists(model_path):
